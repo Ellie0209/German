@@ -1,0 +1,1 @@
+Final audited German Teacher Edition. German.html and index.html are identical. Images are embedded; PDFs are included. Static deployment; HTTPS recommended for microphone access.

@@ -1,0 +1,11 @@
+[PASS] Course Design card removed
+[PASS] Framework reference text removed
+[PASS] German/index identical
+[PASS] A1-C2 retained
+[PASS] Learning Path retained
+[PASS] KO/EN retained
+[PASS] Dual image mode retained
+[PASS] Core audio/record/writing controls retained
+[PASS] Six PDFs retained
+
+RESULT: 9/9 PASS

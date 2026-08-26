@@ -1,0 +1,85 @@
+Deutsch A1-C2 German Teacher Edition — FINAL QA REPORT
+
+Automated browser verification completed:
+- Page rendered with no JavaScript page errors.
+- Korean → English switch worked.
+- 3D Character → Building/Scenery switch worked.
+- A2 level switch worked.
+- Immigration rendered 6 topics.
+- Lesson modal opened and displayed the correct topic.
+- English Writing/Grammar feedback worked.
+- Complete button updated feedback.
+- Learning Path, Checkpoint, Progress, Vocabulary and Survival Phrases opened.
+- Textbook screen exposed all 6 PDF links.
+
+Structural / asset audit:
+[PASS] German.html exists
+[PASS] index.html exists
+[PASS] German.html and index.html identical
+[PASS] A1-C2 levels present
+[PASS] A1: five learning categories
+[PASS] A1 Foundation: six topics
+[PASS] A1 Immigration: six topics
+[PASS] A1 Study: six topics
+[PASS] A1 Career & Business: six topics
+[PASS] A1 Real Life Germany: six topics
+[PASS] A2: five learning categories
+[PASS] A2 Foundation: six topics
+[PASS] A2 Immigration: six topics
+[PASS] A2 Study: six topics
+[PASS] A2 Career & Business: six topics
+[PASS] A2 Real Life Germany: six topics
+[PASS] B1: five learning categories
+[PASS] B1 Foundation: six topics
+[PASS] B1 Immigration: six topics
+[PASS] B1 Study: six topics
+[PASS] B1 Career & Business: six topics
+[PASS] B1 Real Life Germany: six topics
+[PASS] B2: five learning categories
+[PASS] B2 Foundation: six topics
+[PASS] B2 Immigration: six topics
+[PASS] B2 Study: six topics
+[PASS] B2 Career & Business: six topics
+[PASS] B2 Real Life Germany: six topics
+[PASS] C1: five learning categories
+[PASS] C1 Foundation: six topics
+[PASS] C1 Immigration: six topics
+[PASS] C1 Study: six topics
+[PASS] C1 Career & Business: six topics
+[PASS] C1 Real Life Germany: six topics
+[PASS] C2: five learning categories
+[PASS] C2 Foundation: six topics
+[PASS] C2 Immigration: six topics
+[PASS] C2 Study: six topics
+[PASS] C2 Career & Business: six topics
+[PASS] C2 Real Life Germany: six topics
+[PASS] Character + scenic image sets
+[PASS] character: all main images embedded
+[PASS] character Foundation: six embedded topic images
+[PASS] character Immigration: six embedded topic images
+[PASS] character Study: six embedded topic images
+[PASS] character Career & Business: six embedded topic images
+[PASS] character Real Life Germany: six embedded topic images
+[PASS] scenic: all main images embedded
+[PASS] scenic Foundation: six embedded topic images
+[PASS] scenic Immigration: six embedded topic images
+[PASS] scenic Study: six embedded topic images
+[PASS] scenic Career & Business: six embedded topic images
+[PASS] scenic Real Life Germany: six embedded topic images
+[PASS] Korean/English language controls
+[PASS] Safe storage fallback
+[PASS] Core learning controls
+[PASS] Teacher Learning Path
+[PASS] Level checkpoint
+[PASS] Six PDF mappings
+[PASS] Six PDF files exist
+[PASS] No external image path dependency
+[PASS] No Supabase/login dependency
+[PASS] Vercel config exists
+
+RESULT: PASS (63/63 structural checks passed)
+
+Browser-dependent notes:
+- Listen/Slow uses the German de-DE speech voice supplied by the browser/OS.
+- Record/Stop/Replay requires browser microphone support and user permission; HTTPS is recommended after deployment.
+- If browser storage is unavailable, the app now continues to work instead of stopping; only persistence may be unavailable.
